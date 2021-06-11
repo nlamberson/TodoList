@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-List - JavaScript</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+    <link rel="stylesheet" href="frontend/css/font-awesome.css">
+    <link rel="stylesheet" href="frontend/css/style.css">
+</head>
+<body>
+    <!-- Main Container for the header-->
+    <div class="container">
+        <div class="header">
+            <!-- Clear button -->
+            <div class="clear">
+                <!-- Clear button icon -->
+                <i class="fa fa-refresh"></i>
+            </div>
+            <div id="date"></div>
+        </div>
+        <!-- Container for the content, including the list and input field -->
+        <div class="content">
+            <!-- Unordered List -->
+            <ul id="list">
+                <!-- List item (<li>) (inserted by JavaScript) -->
+                <!-- Obtained from app.jss -->
+            </ul>
+        </div>
+        <!-- Add a todo item class -->
+        <div class="add-to-do">
+            <!-- Circle icon (<i>) -->
+            <i class="fa fa-plus-circle"></i>
+            <!-- User input field, asking for a todo list item -->
+            <input type="text" id="input" placeholder="Add a task (Type here)">
+        </div>
+    </div>
+    <!-- Link to the JavaScript -->
+    <script src=frontend/js/app.js></script>
+</body>
+</html>

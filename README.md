@@ -4,10 +4,10 @@ I am using this repository to learn JavaScript, while creating a functional todo
 
 ## Future Plans
 
-[ ] Pomodoro Timer
-  [ ] Link pomodoro timer to tasks in todo list
-[ ] Note Taking
-  [ ] Tie note taking to specific tasks in todo list
-[ ] Calendar Integration
-  [ ] Google Calendar
-  [ ] Outlook
+- [ ] Pomodoro Timer
+  - [ ] Link pomodoro timer to tasks in todo list
+- [ ] Note Taking
+  - [ ] Tie note taking to specific tasks in todo list
+- [ ] Calendar Integration
+  - [ ] Google Calendar
+  - [ ] Outlook
